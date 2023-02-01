@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "03-funcoes-tipos"
+version = "0.1.0"
+description = "Exercícios sobre funções e tipos em Python"
+authors = ["Janaína"]
+readme = "README.md"
+packages = [{include = "03_funcoes_tipos"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+mypy = "^0.991"
+mkdocs = "^1.4.2"
+
+
+[tool.poetry.group.dev.dependencies]
+mkdocs-material = "^9.0.9"
+mkdocstrings = {extras = ["python"], version = "^0.20.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,13 @@
+site_name: Documentação
+theme:
+  name: material
+plugins:
+- search
+- mkdocstrings:
+    handlers:
+      python:
+        setup_commands:
+          - import sys
+          - sys.path.append("src")
+    watch: 
+      - src
