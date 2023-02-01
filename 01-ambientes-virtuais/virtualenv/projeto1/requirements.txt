@@ -1,0 +1,4 @@
+asgiref==3.6.0
+backports.zoneinfo==0.2.1
+numpy==1.24.0
+sqlparse==0.4.3
