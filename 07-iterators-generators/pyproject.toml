@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "07-iterators-generators"
+version = "0.1.0"
+description = "Exercício sobre iterators e generators"
+authors = ["Janaína"]
+readme = "README.md"
+packages = [{include = "07_iterators_generators"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+mypy = "^0.991"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
