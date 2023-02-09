@@ -7,18 +7,18 @@ Crie uma função chamada **teste_args** que tenha a estrutura para receber 2 ar
 Exemplo de passagem de argumentos que a função receberá sem precisar ter nenhuma mudança:  
 
 - Chamada da função: `teste_args(Carro’, 100, 50, Pedra)`  
-- Saída: 
+- Saída:
 
 ```bash
 	arg1: ‘brasil’ 
-    arg2: ‘País’  
-    arg3: ‘PEDRA’
+	arg2: ‘País’  
+	arg3: ‘PEDRA’
 ```
-Outros exemplos de chamadas de função que deverão funcionar sem alterar a função:  
+Outros exemplos de chamadas de função que deverão funcionar sem alterar a função:
 
 ```bash
 	teste_args(‘brasil’, ‘País’, ‘Mundo’, Carro’, 100, 50, Pedra)  
-    teste_args(‘brasil’, ‘País’, ‘Gol’, Carro’, 10)
+	teste_args(‘brasil’, ‘País’, ‘Gol’, Carro’, 10)
 ```
 
 ### Questão 02 
