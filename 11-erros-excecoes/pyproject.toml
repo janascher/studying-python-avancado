@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "11-erros-excecoes"
+version = "0.1.0"
+description = "Exercício referente a aula 11 sobre tratamento de erros e exceções em Python"
+authors = ["Janaína"]
+readme = "README.md"
+packages = [{include = "11_erros_excecoes"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+mypy = "0.991"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
