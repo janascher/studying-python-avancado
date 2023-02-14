@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "13-oo-avancado-heranca"
+version = "0.1.0"
+description = "Exercício referente a aula 13 sobre Herança da Orientação a Objetos (OO) avançado em Python"
+authors = ["Janaína"]
+readme = "README.md"
+packages = [{include = "13_oo_avancado_heranca"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+mypy = "0.991"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
