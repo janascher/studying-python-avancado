@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "16-pytest"
+version = "0.1.0"
+description = "Exercício referente a aula 16 sobre Pytest."
+authors = ["Janaína"]
+readme = "README.md"
+packages = [{include = "16_pytest"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+mypy = "0.991"
+pytest = "^7.2.1"
+pytest-cov = "^4.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
